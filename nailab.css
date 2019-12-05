@@ -6,43 +6,150 @@ body{
     background: #070707;
 }
 
+
+
+
+button {
+    background-color: #52C2D6;
+    border: none;
+    color: white;
+    padding: 17px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+  }
+
+
+span{
+    color: #52C2D6;    
+
+}
+
+
+
+a{
+    color:#fff;
+    text-decoration: none;
+}
+
+li:link{
+    color: #fff;
+    text-decoration: none;
+ }
+
+ li :hover{
+    color: #52C2D6;
+    text-decoration: none;
+}
+
+ li :active{
+    color: #52C2D6;
+    text-transform: uppercase;
+    text-decoration: none;
+    }
+
 li{
-    color: aliceblue;
-    margin: 4%;
+    color:#fff;
+    margin: 3%;
     display: inline;
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 33px;
+    text-decoration: none;text-decoration: none;
+    text-decoration: none;
 }
+ 
 
 .navigation{
+    position: absolute;
     background-color: #070707;
     height: 150px;
     width: 100%;
+    margin-top: 0;
 }
+
 .navigation .hold{
     margin: 2%;
     /* display: flex; */
     display: 100%;
+    margin-top:0;
+
 }
 
 .navigation .container{
-    width: 80%;
+    width: 90%;
     margin: auto;
     overflow: hidden;
     align-items: center;
     display: flex;
-    margin-top: 3%;
 }
 
 .navigation  #logo{
-    width: 40%;
+    width: 30%;
     height: auto;
 }
 
 .navigation #nav-bar{
-    width: 60%;
+    width: 70%;
+    margin-left: 10%;
     
 }
+
+
+
+/*navigation end*/
+
+/*START SECTION*/
+
+/*START ACTION*/
+.action{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.action .container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
+}
+
+
+/*START MAIN*/
+.more{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+
+.main{
+    width: 60%;
+    background: #52C2D6;
+    height: 200vh;
+}
+
+.main  #news{
+    width:100%;
+    height:auto;
+}
+
+.main #news-container{
+    margin: 1%;
+    background: #fff;
+}
+.side{
+    width:30%;
+    height: 200vh;
+    background: #fff;
+    margin-left: 4%;
+}
+

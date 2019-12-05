@@ -17,18 +17,127 @@
                 </div>
 
                 <div id="nav-bar">
-                    <li>HOME</li>
-                    <li>About us</li>
-                    <li>What we do</li>
-                    <li>Blog</li>
-                    <li>Contact us</li>
+                    <li><a href="#"><span>HOME</span></a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">What we do</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact us</a></li>
+                   <a href="#"><button>SIGN IN</a></button>
                 </div>
                 </div>
 
                 </div>
                 
             </div>
+
+            <!--end navigation--> 
+
+            <section class="action">
+                <div class="container">
+
+                <div class="more">
+                        <div class="main" id="main">
+                            <div id="news">
+                                <div id="news-container">
+                                    <div  id="news-1">
+                                            <p>Top stroy</p>
+                                            <h1>Main stroy</h1>
+                                            <img src="" alt="">
+                                    </div>
+                                   
+
+                                </div>
+
+
+                            </div>
+                
+                        </div>
+
+                            <div class="side">
+            
+                            </div>
+                            </div>
+                </div>
+                
+
+            </section>
+
+
+
     </div>
     
 </body>
+
+<!-- <script >
+        const petsData = [
+        {
+          name: "Purrsloud",
+          species: "Cat",
+          favFoods: ["wet food", "dry food", "<strong>any</strong> food"],
+          birthYear: 2016,
+          photo: "https://learnwebcode.github.io/json-example/images/cat-2.jpg"
+        },
+        {
+          name: "Barksalot",
+          species: "Dog",
+          birthYear: 2008,
+          photo: "https://learnwebcode.github.io/json-example/images/dog-1.jpg"
+        },
+        {
+          name: "Meowsalot",
+          species: "Cat",
+          favFoods: ["tuna", "catnip", "celery"],
+          birthYear: 2012,
+          photo: "https://learnwebcode.github.io/json-example/images/cat-1.jpg"
+        }
+      ];
+    
+    
+      
+      function age(birthYear){
+          let calculatedAge =new Date().getFullYear()- birthYear;
+          if(calculatedAge ==1){
+              return '1 year old'
+          }
+          else if(calculatedAge == 0){
+              return 'baby'
+          }
+    
+          else{
+              return `${calculatedAge} years old`
+          }
+      }
+      function foods(foods) {
+          return`
+          <h4>fav foodz</h4>
+          <ul class="food-list">
+            ${foods.map( (food)=>`<li>${food}</li>`).join('')
+            
+            }
+          </ul>
+          `
+      }
+    
+      function petTemplate(pet) {
+        return `<div class="animal">
+             <img class="pet-photo" src="${pet.photo}">
+             <h2>${pet.name}<span class="species">(${pet.species})</span><h2>
+                <p><strong>Age:</strong>${age(pet.birthYear)}</p>
+                ${ pet.favFoods? foods(pet.favFoods) :''}
+                </div>`
+    
+      }
+    
+    
+      document.getElementById("main").innerHTML=`<h1 class="app-title">(${petsData.length} results)</h1>
+      ${petsData.map(petTemplate).join('')}
+    
+      
+      
+      <p class="footer">this ${petsData.length} pets are  recent  adds</p>
+      ` 
+    
+    
+    
+    </script> -->
 </html>
