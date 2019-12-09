@@ -1,0 +1,25 @@
+      
+      Const news=[
+          {
+          headline: "Baptism by Fire! Is the phrase I would use to describe my experience working at Nailab…",
+          description: "Only 5% of the largest voting counties in the U.S. are protected against email impersonation and phishing attacks, seen as a key attack method by hackers",
+          author: "article by techcrunch",
+          image url:"./images/banner.png",
+          },
+
+          {
+            headline: "Baptism by Fire! Is the phrase I would use to describe my experience working at Nailab…",
+            description: "Only 5% of the largest voting counties in the U.S. are protected against email impersonation and phishing attacks, seen as a key attack method by hackers",
+            author: "article by techcrunch",
+            image url:"./images/banner.png",
+            },
+
+        {
+            headline: "Baptism by Fire! Is the phrase I would use to describe my experience working at Nailab…",
+            description: "Only 5% of the largest voting counties in the U.S. are protected against email impersonation and phishing attacks, seen as a key attack method by hackers",
+            author: "article by techcrunch",
+            image url:"./images/banner.png",
+            },
+
+      ];
+      
