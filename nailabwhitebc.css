@@ -1,9 +1,32 @@
 body{
     width: 100%;
     height: auto;
-    left: 0px;
-    top: 0px;
+    left: 0;
+    top: 0;
+    margin:0;
+    padding:0;
     background: #ffffff;
+}
+
+hr.new4 {
+    border: 1px solid #8560a8;
+    height: 140px;
+    /* margin-top: 10% ; */
+}
+
+
+ .container{
+    width: 95%;
+    margin: auto;
+    align-items: center;
+}
+    
+
+@font-face { font-family: roboto-regular; 
+    src: url('../font/Roboto-Regular.ttf'); } 
+
+h1{
+    letter-spacing: 2px;
 }
 
 /* width */
@@ -78,18 +101,36 @@ span{
 
 
 a{
-    color: #000;
+    color: #fff;
     text-decoration: none;
 }
 
+.scroll  a {
+    color:#000;
+    margin-top: 0;
+    margin: 0;
+  }
+
+.scroll  link{
+    color: #fff;
+    text- decoration: none;
+    text-transform: uppercase;
+
+}
 li:link{
     color: #fff;
-    text-decoration: none;
+    text- decoration: none;
     text-transform: uppercase;
 
  }
 
  li :hover{
+    color: #E071F2;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.scroll :hover{
     color: #E071F2;
     text-decoration: none;
     text-transform: uppercase;
@@ -100,10 +141,14 @@ li:link{
     color: #52C2D6;
     text-decoration: none;
     }
+.scroll :active{
+        color: #52C2D6;
+        text-decoration: none;
+        }
 
 li{
     color:#fff;
-    margin: 4%;
+    margin: 3%;
     display: inline;
     font-family: Helvetica;
     font-style: normal;
@@ -116,6 +161,9 @@ li{
 
 }
  
+.content{
+    height: auto;
+}
 
 .navigation{
     position: absolute;
@@ -126,12 +174,41 @@ li{
     position: fixed;
 }
 
+.navigation .scroll{
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    transition: background-color 0.1s ease-out;
+    background-color: rgba(255, 255, 255); 
+    /* -webkit-box-shadow: -2px 2px 5px -3px rgba(0,0,0,0.71);
+    -moz-box-shadow: -2px 2px 5px -3px rgba(0,0,0,0.71);
+    box-shadow: -2px 2px 5px -3px rgba(0,0,0,0.71); */
+}
+
+.hold .scroll{
+    height: 150px;
+    width: 100%;
+    margin-top: 0;
+
+
+}
+
 .navigation .hold{
-    margin: 2%;
+    /* margin: 2%; */
     /* display: flex; */
     display: 100%;
     margin-top:30px;
 
+}
+
+.navigation #driver{
+    margin-top: 2%;
+}
+
+.navigation #driver .scroll{
+    margin-top: 0;
 }
 
 .navigation .container{
@@ -139,7 +216,7 @@ li{
     margin: auto;
     align-items: center;
     display: flex;
-    margin-top: 2%;
+    /* margin-top: 2%; */
 }
 
 .navigation  #logo{
@@ -149,7 +226,7 @@ li{
 
 .navigation #nav-bar{
     width: 70%;
-    margin-left: 19%;
+    margin-left: 10%;
     
 }
 
@@ -157,11 +234,32 @@ li{
 
 /*navigation end*/
 
+
 .introduction{
     width: 100%;
-    height: 400vh;
+    height: 300vh;
     background-image: url('./images/image.png');
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    padding: 0;
 }
+
+.introduction{
+    width: 100%;
+    height: 300vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    padding: 0;
+}
+
+.introduction .container{
+    width: 95%;
+    margin: auto;
+    align-items: center;
+    /* display: flex; */
+    /* margin-top: 2%; */
+}
+
 
 
 .introduction #we{
@@ -172,3 +270,156 @@ li{
 
 }
 
+.introduction #SLIDE{
+    /* margin: 10%; */
+    margin-left: 3%;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.introduction #SLIDE h1{
+    font-family: Futura Hv BT;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 68px;
+    line-height: 117px;
+    /* width: 50%; */
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20% ;
+    margin-bottom: 0;
+}
+
+.introduction #SLIDE p{
+    font-family: Futura Bk BT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 43px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0;
+
+}
+
+#we-stats{
+    width: 100%;
+    /* height:33%; */
+    margin-top: 6%;
+    margin-bottom: 16%;
+    
+}
+
+#SLIDE-in{
+    width: 100%;
+    margin: 4%;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    
+    
+
+}
+
+#vert{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 0;
+}
+
+#horizon{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin: 2%;
+
+}
+
+#SLIDE-in h1{
+    font-family: Futura Hv BT;
+    
+    font-style: normal;
+    font-weight: 900;
+    font-size: 76px;
+    line-height: 115px;
+    color: #000;
+    /* margin-top: 20%; */
+    margin: 0;
+    margin-top: 4%;
+}
+#SLIDE-in p{
+    font-family: Futura Bk BT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 43px;
+    text-align: center;
+    color: #000;
+}
+
+
+ #stats-in h2{
+    font-family: Futura Hv BT;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 77px;
+    text-align: center;
+    color: #000;
+    /* margin-top: 20%; */
+    margin: 0;
+}
+
+#stats-in{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    margin: 1%;
+    margin-left: 0;
+    height: auto;
+}
+
+#stats-in :hover :active{ 
+    
+    width:50%;
+    margin: 1%;
+    margin-left: 0;
+    height: auto;
+    background: #8560a8;
+}
+
+
+.what-we-do{
+    margin-top:40% ;
+}
+
+.what-we-do #sec{
+    background: #8560a8;
+}
+
+
+#quote{
+    display: flex;
+    flex-direction: row;
+    margin: 3%;s
+}
+
+#sec-1{
+    margin-top: 5%;
+
+}
+#words p{
+    
+        font-size: 18.304px;
+        font-family: "Futura Md BT";
+        color: rgb(253, 253, 253);
+        line-height: 1.398; 
+        width: 35%; 
+}
+#words{
+    margin: 5%;
+}
