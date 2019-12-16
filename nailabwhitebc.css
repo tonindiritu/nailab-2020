@@ -429,7 +429,7 @@ li{
 }
 
 .what-we-do #sec-3{
-    background: #52C2D6;
+    background: #0C7CCC;
    
     height: auto;
 }
@@ -461,6 +461,7 @@ li{
     height: auto;
     /* padding-top: 1%; */
     scroll-padding-bottom: 0;
+    padding: 2%;
     
 }
 
@@ -474,6 +475,7 @@ li{
 #words{
      /* padding-top: 110px;
      margin-left: 2%; */
+     
    
      width: 100%;
      padding: 4%;
@@ -481,7 +483,7 @@ li{
 
 #words p{
     
-    font-size: 27px;
+    font-size: 29px;
     font-family: "Futura Md BT";
     color: rgb(253, 253, 253);
     line-height: 1.398; 
