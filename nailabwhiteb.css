@@ -53,7 +53,7 @@ body{
     outline-style: solid;
     outline-color: #52C2D6;
     outline-width: medium;
-    font-size:12px ;
+    font-size: 8px;
     }
 
 
@@ -110,19 +110,18 @@ li{
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 23px;
     text-decoration: none;
     text-decoration: none;
     text-transform: uppercase;
-
 }
  
 
 .navigation{
     position: absolute;
     background-color: #ffffff;
-    height: 150px;
+    height: 90px;
     width: 100%;
     top: 0;
     position: fixed;
@@ -141,7 +140,7 @@ li{
     margin: auto;
     align-items: center;
     display: flex;
-    margin-top: 2%;
+    margin-top: 15px;
 }
 
 .navigation  #logo{
@@ -185,8 +184,8 @@ li{
     font-family: Futura Hv BT;
     font-style: normal;
     font-weight: 300;
-    font-size: 44px;
-    line-height: 67px;
+    font-size: 34px;
+    line-height: 38px;
     color: #000;
     width: 60%;
 }

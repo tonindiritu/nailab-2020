@@ -1,8 +1,6 @@
 body{
     width: 100%;
     height: auto;
-    left: 0;
-    top: 0;
     margin:0;
     padding:0;
     background: #ffffff;
@@ -23,7 +21,8 @@ br{
 
  .container{
     width: 95%;
-    margin: auto;
+    margin: 0;
+    padding: 0;
     align-items: center;
 }
     
@@ -88,7 +87,7 @@ button {
     background-color: #52C2D6;
     border: none;
     color: white;
-    padding: 17px 36px;
+    padding: 13px 36px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -159,16 +158,18 @@ li{
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 23px;
     text-decoration: none;
     text-decoration: none;
     text-transform: uppercase;
-
 }
  
 .content{
     height: auto;
+    margin: 0;
+    padding: 0;
+    
 }
 
 .navigation{
@@ -182,7 +183,7 @@ li{
 
 .navigation .scroll{
     position: absolute;
-    height: 150px;
+    height: 95px;
     width: 100%;
     top: 0;
     position: fixed;
@@ -194,7 +195,7 @@ li{
 }
 
 .hold .scroll{
-    height: 150px;
+    height: 90px;
     width: 100%;
     margin-top: 0;
 
@@ -210,7 +211,7 @@ li{
 }
 
 .navigation #driver{
-    margin-top: 2%;
+    margin-top: 20px;
 }
 
 .navigation #driver .scroll{
@@ -261,7 +262,7 @@ li{
 
 .introduction .container{
     width: 95%;
-    margin: auto;
+    /* margin: auto; */
     align-items: center;
     /* display: flex; */
     /* margin-top: 2%; */
@@ -435,8 +436,8 @@ li{
 }
 
 .what-we-do .container{
-    margin: 10%;
-    margin-top: 0;
+    /* margin: 10%; */
+    /* margin-top: 0; */
     /* width: 70%; */
    
     margin-bottom: 0;
@@ -477,17 +478,16 @@ li{
      margin-left: 2%; */
      
    
-     width: 100%;
+     width:57%;
      padding: 4%;
 }
 
 #words p{
-    
-    font-size: 29px;
+    font-size: 21px;
     font-family: "Futura Md BT";
     color: rgb(253, 253, 253);
-    line-height: 1.398; 
-    width: 69%; 
+    line-height: 1.398;
+    width: 69%;
     /* padding-top:-90%;  */
 }
 
@@ -508,7 +508,7 @@ li{
 }
 
 #sec-2{
-    margin-top:0;
+    /* margin-top:0; */
     height:auto;
 }
 
@@ -523,7 +523,7 @@ li{
     font-family: Futura Hv BT;
     font-style: normal;
     font-weight: 900;
-    font-size: 68px;
+    font-size: 48px;
     line-height: 58px;
     width: 60%;
     color: #181616;
@@ -583,15 +583,13 @@ li{
     font-family: Futura Bk BT;
     font-style: normal;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 22px;
     width: 87%;
-    text-align:left ;
+    text-align:left;
     margin-left: 8%;
     /* margin-right:20%; */
-
     color: #343535;
-
 }
 
 /*updates section*/
@@ -630,7 +628,7 @@ li{
    width: 10%;
    font-family: Futura Hv BT;
    color: #0b0b0b;
-   font-size: 58px;
+   font-size: 48px;
    line-height: 62px;
    font-weight: 700;
    text-align: left;
@@ -670,7 +668,7 @@ li{
     font-family: Futura Hv BT;
     font-style: italic;
     font-weight: 900;
-    font-size: 22px;
+    font-size: 17px;
     line-height: 27px;
     width: 35%;
     color: #252828;
