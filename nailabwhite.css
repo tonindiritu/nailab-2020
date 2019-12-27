@@ -108,7 +108,7 @@ li{
     font-family: Helvetica;
     font-style: normal;
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 23px;
     text-decoration: none;
     text-decoration: none;
@@ -148,7 +148,7 @@ li{
 }
 
 .navigation #nav-bar{
-    width: 70%;
+    width: 60%;
     margin-left: 19%;
     
 }

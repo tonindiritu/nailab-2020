@@ -14,6 +14,7 @@ hr.new4 {
     /* padding-right: 40px; */
 }
 
+
 br{
     margin: 2%;
 }
@@ -25,14 +26,16 @@ br{
     padding: 0;
     align-items: center;
 }
+
+.down{
+    margin: 10%;
+}
     
 
 @font-face { font-family: roboto-regular; 
     src: url('../font/Roboto-Regular.ttf'); } 
 
-h1{
-    /* letter-spacing: 2px; */
-}
+
 
 /* width */
 ::-webkit-scrollbar {
@@ -97,6 +100,27 @@ button {
     font-weight: bold;
   }
 
+  .button {
+    background-color: #52C2D6;
+    border: none;
+    color: white;
+    padding: 13px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+  }
+  
+
+   .down .button {
+    background-color:#8560a8;
+    border-color:#8560a8;
+    font-size: 12px;
+
+  }
 
 span{
     color: #52C2D6;    
@@ -219,7 +243,7 @@ li{
 }
 
 .navigation .container{
-    width: 95%;
+    width: 88%;
     margin: auto;
     align-items: center;
     display: flex;
@@ -229,13 +253,12 @@ li{
 .navigation  #logo{
     width: 30%;
     height: auto;
-    margin-left: 4%;
+    margin-left: 1%;
 }
 
 .navigation #nav-bar{
     width: 70%;
-    margin-left: 10%;
-    
+    margin-left: 12%;
 }
 
 
@@ -261,11 +284,12 @@ li{
 }
 
 .introduction .container{
-    width: 95%;
+    width: 88%;
     /* margin: auto; */
     align-items: center;
     /* display: flex; */
     /* margin-top: 2%; */
+    margin-left: 9%;
 }
 
 
@@ -281,7 +305,7 @@ li{
 .introduction #SLIDE{
     /* margin: 10%; */
     margin-left: 3%;
-    text-align: center;
+    /* text-align: center; */
     width: 100%;
     
     
@@ -291,10 +315,9 @@ li{
     font-family: Futura Hv BT;
     font-style: normal;
     font-weight: 900;
-    font-size: 68px;
+    font-size: 98px;
     line-height: 117px;
-    /* width: 50%; */
-    text-align: center;
+
     color: #FFFFFF;
     margin-top: 20% ;
     margin-bottom: 0;
@@ -307,20 +330,17 @@ li{
     font-size: 19px;
     line-height: 43px;
     color: #FFFFFF;
-    text-align: center;
+    /* text-align: center; */
     margin: 0;
 
 }
 
 #we-stats{
     width: 100%;
-    height:auto;
+    height: 600px;
     /* margin-top: 10%; */
     /* margin-bottom: 16%; */
-    background-color: rgba(0, 0, 0, 0.65);
-
-    
-    
+    background-color: rgb(0, 0, 0);
 }
 
 #SLIDE-in{
@@ -348,23 +368,22 @@ li{
 #horizon{
     display: flex;
     flex-direction: row;
-    width: 50%;
+    width: 80%;
     height: auto;
     margin: 2%;
     margin-left: 30%;
+    margin-top:10%;
     /* background-image:url("./images/hexa\ numbers.png"); */
-
 }
 
 #SLIDE-in h1{
     font-family: Futura Hv BT;
-    
     font-style: normal;
     font-weight: 900;
     font-size: 76px;
     line-height: 115px;
     color: #fff;
-    /* margin-top: 20%; */
+    margin-top: 20%;
     margin: 0;
     margin-top: 4%;
 }
@@ -375,8 +394,7 @@ li{
     font-size: 18px;
     line-height: 43px;
     text-align: center;
-    color: #fff;
-    
+    color: #00BCD4;
     margin: 0;
     margin-left: 2%;
 }
@@ -390,7 +408,7 @@ li{
     font-size: 54px;
     line-height: 77px;
     text-align: center;
-    color: #fff;
+    color: #00BCD4;
     /* margin-top: 20%; */
     margin: 0;
     /* margin-left: 2%; */
@@ -401,11 +419,10 @@ li{
     flex-direction: column;
     width:100%;
     ! margin: 3%;
-     margin-left: 4%;
+    margin-left: 15%;
     /*! height: auto; */
     /* background: #7af1e2;
     background-image:url("./images/hexa\ numbers.png"); */
-    
 }
 
 #stats-in :hover :active{ 
@@ -429,11 +446,18 @@ li{
     height: auto;
 }
 
+.what-we-do .new{
+    background: #0C7CCC;
+   
+    height: auto;
+}
+
 .what-we-do #sec-3{
     background: #0C7CCC;
    
     height: auto;
 }
+
 
 .what-we-do .container{
     /* margin: 10%; */
@@ -452,18 +476,21 @@ li{
     /* padding-top: 1%; */
     /* scroll-padding-bottom: 0; */
     padding: 2%;
-    
+    margin-left: 150px;
+    margin-right:300px;
 }
 
 #quote-2{
-    display: flex;
+   display: flex;
     flex-direction: row;
     width: 90%;
     height: auto;
     /* padding-top: 1%; */
-    scroll-padding-bottom: 0;
+    /* scroll-padding-bottom: 0; */
     padding: 2%;
-    
+    margin-left: 150px;
+    margin-right:300px;
+
 }
 
 
@@ -483,7 +510,7 @@ li{
 }
 
 #words p{
-    font-size: 21px;
+    font-size: 28px;
     font-family: "Futura Md BT";
     color: rgb(253, 253, 253);
     line-height: 1.398;
@@ -512,9 +539,26 @@ li{
     height:auto;
 }
 
+#sec-2 #see-thru{
+    background:none;
+    border: solid;
+    border-color: #000;
+    color: #000;
+    padding: 13px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+
+  }
+
+
 
 #sec-2 .container{
-    width: 93%;
+    width: 88%;
     margin: auto;
     align-items: center;
 }
@@ -596,7 +640,7 @@ li{
 
 
 #updates .container{
-    width: 88%;
+    width: 80%;
     margin: auto;
     align-items: center;
     display: flex;
@@ -772,6 +816,106 @@ li{
     /* margin-left: 11%; */
     /* margin-top:10%; */
 }
+
+
+#program-data .container{
+    width: 85%;
+    margin: auto;
+    align-items: center;
+    /* display: flex; */
+    margin-left: 7%;
+}
+
+
+/* #program-data .container{
+
+    width: 85%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+
+} */
+
+#program-data{
+
+}
+
+#program-data #title h1{
+    font-family: Futura Hv BT;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 28px;
+    width: 60%;
+    color: #181616;
+    margin-left: 3%;
+    margin: :0;
+    margin-top: 6%;
+    margin-bottom:4%;
+}
+
+#program-data #row{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+#program-data #card{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    
+}
+
+#program-data #card-in{
+    margin: 1%;
+    text-align: center;
+    /* -webkit-box-shadow: -2px 2px 5px -3px rgba(0,0,0,0.71);
+    -moz-box-shadow: -2px 2px 5px -3px rgba(0,0,0,0.71);
+    box-shadow: -2px 2px 5px -3px rgba(0,0,0,0.71); */
+    /* outline: dashed;
+    outline-width: 1px;
+    color: #8560a8;
+    width: 80%; */
+}
+    
+
+
+#program-data #row  #card h1{
+    font-family: Futura Hv BT;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    width: 60%;
+    color: #343535;
+    margin-left: 16%;
+}
+
+#program-data #card-in p{
+    /* width: 60%; */
+    /* padding: 50%; */
+    font-family: Futura Bk BT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* width: 87%; */
+    text-align: left;
+    
+    margin-right: 15%;
+    margin-left: 15%;
+    color: #343535; 
+}
+
+#row{
+    margin-top: 10%;
+    margin-bottom: 2%;
+}
+
+
 
 
 
