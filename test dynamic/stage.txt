@@ -1,0 +1,16 @@
+ window.onscroll = () => {
+    const nav = document.querySelector('#hold','#bg');
+    if(this.scrollY <= 10) nav.className = ''; else nav.className = 'scroll';
+    };
+
+const url = "https://spreadsheets.google.com/feeds/cells/1e4B_egvXqZIYYYdd7PrpeIJTUPPgVx2_tvpCE78lgKI/1/public/full?alt=json";
+
+fetch(url,{method:"GET"})
+.then((res)=>res.text()
+).then((text)=>JSON.parse(text))
+.then((data)=>{
+    //Render received data here
+    render(data.feed.entry);
+})
+
+})

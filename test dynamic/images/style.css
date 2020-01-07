@@ -1,0 +1,423 @@
+
+/*global content*/
+
+
+body{
+    margin:0;
+    padding: 0;
+}
+#container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
+
+}
+
+
+/*section styles*/
+#intro{
+    background: #cfffcf;
+    width: 100%;
+    height: auto;
+    background-image: url("./images/top.jpg");
+    min-height: 500px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#intro .text-4{
+    background: #fff;
+    width: 100%;
+}
+
+
+#we{
+    background: #000;
+    width: 100%;
+    height: auto;
+}
+
+
+#updates{
+    background: #008fcf;
+    width: 100%;
+    height: 70vh;
+}
+
+
+#programs{
+    background: #c66fcf;
+    width: 100%;
+    height: 120vh;
+}
+
+
+#team{
+    background: #6dd205;
+    width: 100%;
+    height: 190vh;
+}
+#partners{
+    background: #6dd205;
+    width: 100%;
+    height: 50vh;
+}
+
+/*section styles*/
+
+
+/*section contentents divs*/
+
+
+#intro .navigation{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fff;
+    flex-basis: end;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+    background-color: #fff;
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.11);
+   
+
+}
+
+#intro .logo{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+#intro #nav-bar{
+    position: relative;
+    float: right;
+    margin-left: 40%;
+    width: 100%;
+}
+#intro #hero{
+    /* width: 90%; */
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
+}
+#intro .text-1{
+    width: 100%;
+    min-height: 600px;
+}
+
+
+.text-1 {
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 10%;
+}
+
+.text-2 {
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 10%;
+}
+
+.text-3 {
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 20%;
+}
+
+
+
+.text-4 #container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
+}
+
+.text-4 #data{
+    width: 25%;
+    height: 335px;
+    align-items: center;
+    text-align: center;
+}
+
+
+#intro .text-4 #text-hold{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+}
+
+#.text-4 {
+
+    
+}
+/*INTRO section contentents divs*/
+
+/*section contentents text controls*/
+
+#intro  h1{
+    width: 60%;
+    font-family: Lato, sans-serif;
+    color: #fff;
+    font-size: 50px;
+    line-height: 56px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 20%;
+}
+
+#intro  p{
+    width: 70%;
+    margin-top: 20px;
+    font-family: Lato, sans-serif;
+    color: #fff;
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+#intro .text-4 #text-hold h1{
+    color: #000;
+    text-align: center;
+    width: 70%;
+
+}
+
+#intro .text-4 #text-hold p{
+    color: #000;
+    text-align: center;
+
+}
+
+/*section contentents text controls*/
+
+/* WE section contentents divs*/
+#we #title h1{
+    width: 60%;
+    font-family: Lato, sans-serif;
+    color: #fff;
+    font-size: 50px;
+    line-height: 56px;
+    font-weight: 700;
+    text-align: left;
+    text-align: left;
+    margin-top: 8%;
+}
+
+#we #title {
+    min-width: 100%;
+    height: 200px;
+}
+
+
+#we  #container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    align-items: center;
+}
+#we .block{
+    width: 100%;
+    height: auto;
+    /* background: #913F98; */
+}
+#we #block-cont{
+    margin: 3%;
+    margin-top: 0;
+}
+#we .card{
+    width: 100%;
+    /* display: flex;
+    flex-direction: row; */
+   
+}
+
+#we #content{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    ;
+}
+
+#we #image{
+    width: 50%;
+    margin-left: 5%;
+    margin: 3%;
+
+}
+
+#we #image img{
+    border-radius: 50%;
+   
+
+}
+
+#we .text{
+    width: 100%;
+}
+
+#we .text p{
+    width: 100%;
+    font-family: Futura Hv BT;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 34px;
+    line-height: 
+    43px;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+
+#we .text #quota{
+    width: 70%;
+    width: 100%;
+    font-family: Futura Bk BT;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #FFFFFF;
+
+    
+}
+
+#we .cards{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+#we .cards #content-b{
+    width: 89%;
+    margin-left: 2%;
+}
+
+#we .cards #content-b h1{
+    width: 88%;
+    font-family: Futura Hv BT;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 34px;
+    text-align: center;
+}
+
+#we .cards #content-b p{
+    width: 88%;
+    margin-top: 20px;
+    font-family: Lato, sans-serif;
+    color: grey;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+
+
+
+
+
+/* WE section contentents divs*/
+
+/* WEsection contentents text controls*/
+#we h1{
+    width: 60%;
+    font-family: Lato, sans-serif;
+    color: #fff;
+    font-size: 60px;
+    line-height: 56px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 5%;
+}
+
+#we p{
+    width: 70%;
+    margin-top: 20px;
+    font-family: Lato, sans-serif;
+    color: #fff;
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+#we.text-4 #text-hold h1{
+    color: #000;
+    text-align: center;
+    width: 70%;
+
+}
+
+#we .text-4 #text-hold p{
+    color: #000;
+    text-align: center;
+
+}
+
+/* WE section contentents text controls*/
+
+
+
+
+/* we section contentents text controls*/
+
+
+
+/*section contentents text controls*/
+   
+#intro{
+
+}
+
+
+#we{
+
+}
+
+#updates{
+
+}
+
+#programs{
+
+}
+
+#partner{
+
+
+}
+
+#partner{
+
+}
+
+
+/*section contentents*/
+
+/*list-items*/
+#intro li{
+    width: 100%;
+    height: 70;
+    display: inline;
+    font-family: Lato, sans-serif;
+    color: #55596d;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 0.3px;
+    margin-left: 50px;
+}
+

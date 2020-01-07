@@ -1,0 +1,5 @@
+[2020-1-5 14:01:38] layer "tom.png copy": Expected end of input but "c" found.
+[2020-1-5 14:01:38] layer "tom.png copy 2": Expected end of input but "c" found.
+[2020-1-5 13:51:30] layer "val.png": Duplicate path: val.png
+[2020-1-5 14:01:38] layer "tom.png copy 3": Expected end of input but "c" found.
+[2020-1-5 14:01:38] layer "tom.png copy 4": Expected end of input but "c" found.
