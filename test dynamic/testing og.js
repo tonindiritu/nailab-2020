@@ -1,15 +1,3 @@
-const petsData = [
-  {
-    headline: "The Decade the Internet Lost Its Joy",
-    snippet: "What began as cheerful anarchy was devoured by vulture capital and ruthless consolidation",
-    favFoods: ["wet food", "dry food", "<strong>any</strong> food"],
-    birthYear: 2016,
-    pub: "Mary mbuti",
-    Article: "Article by",
-    photo : "https://images.unsplash.com/photo-1512820790803-83ca734da794?ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60"
-  },
-
-];
 
 const newsData = [
   {
